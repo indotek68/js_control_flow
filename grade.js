@@ -16,10 +16,10 @@ var grade = 50
 // 	console.log("A");
 // }
 
-switch (grade) 
+switch (true) 
 {
   case grade > 0 && grade < 59:
-    dconsole.log("F");
+    console.log("F");
     break;
   case grade > 59 && grade <= 69:
     console.log("D");
